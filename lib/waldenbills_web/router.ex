@@ -7,6 +7,6 @@ defmodule WaldenbillsWeb.Router do
 
   scope "/api", WaldenbillsWeb do
     pipe_through :api
-    get "/elixir", PageController, :index
+    get "/", PageController, :index
   end
 end
